@@ -2,7 +2,12 @@
 A high-performance PostgreSQL extension to import and export object storage from AWS S3 with Rust.
 ## 1. Functions 
 ###  hello_s3()
-Test extension hello function
+```
+#[pg_extern]
+fn hello_s3() -> &'static str {
+    "Hello, S3"
+}
+```
 ## 2. To build extension
 ```
 cargo pgx run pg14
