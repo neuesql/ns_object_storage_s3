@@ -1,6 +1,5 @@
 .DS_Store
 .idea/
-.cargo
 /target
 *.iml
 **/*.rs.bk

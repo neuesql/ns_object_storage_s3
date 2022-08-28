@@ -1,0 +1,5 @@
+comment = 'ns_object_storage_s3:  Created by pgx'
+default_version = '@CARGO_VERSION@'
+module_pathname = '$libdir/ns_object_storage_s3'
+relocatable = false
+superuser = false

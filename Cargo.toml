@@ -1,5 +1,5 @@
 [package]
-name = "ns_objectstorage_s3"
+name = "ns_object_storage_s3"
 version = "0.0.0"
 edition = "2021"
 

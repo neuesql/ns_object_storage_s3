@@ -3,8 +3,8 @@ use pgx::*;
 pg_module_magic!();
 
 #[pg_extern]
-fn hello_ns_objectstorage_s3() -> &'static str {
-    "Hello, ns_objectstorage_s3"
+fn hello_ns_object_storage_s3() -> &'static str {
+    "Hello, ns_object_storage_s3"
 }
 
 #[cfg(any(test, feature = "pg_test"))]
@@ -13,8 +13,8 @@ mod tests {
     use pgx::*;
 
     #[pg_test]
-    fn test_hello_ns_objectstorage_s3() {
-        assert_eq!("Hello, ns_objectstorage_s3", crate::hello_ns_objectstorage_s3());
+    fn test_hello_ns_object_storage_s3() {
+        assert_eq!("Hello, ns_object_storage_s3", crate::hello_ns_object_storage_s3());
     }
 
 }
